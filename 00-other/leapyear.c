@@ -19,6 +19,7 @@ int main() {
 	scanf("%d",&i);
 	if(isleapyear(i) == 1)
 		printf("%d:isleapyear.",i);
-	else printf("%d:not leapyear.",i);
+	else 
+		printf("%d:not leapyear.",i);
 	return 0;
 }
