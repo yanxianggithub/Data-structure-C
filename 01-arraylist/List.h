@@ -1,5 +1,4 @@
 #pragma once
-#include<stdio.h>
 #define  MAXSIZE  100
 
       typedef  struct  node { 
