@@ -11,6 +11,8 @@ int main()
     Insert_SeqList(PL,3,7);
     Insert_SeqList(PL,4,8);
     Display_SeqList(PL);
+    Delete_SeqList(PL,2);
+    Display_SeqList(PL);
 
     return 0;
 }
