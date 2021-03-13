@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<stdlib.h>
 #include "List.h"
 
 PSeqList Init_SeqList(void)
@@ -38,7 +40,7 @@ int Location_SeqList(PSeqList PL, int x)
     int i = 0;
     if (!PL)
     {
-        printf("表不存在!");
+        printf("表不存在");
         return (-1);
         /*表不存在，不能检索*/
     }
@@ -65,7 +67,7 @@ int Insert_SeqList(PSeqList PL,int i,int x)
     } /*表空间已满，不能插入*/
     if (i < 1 || i > PL->length + 1)
     {/*检查插入位置的合法性*/
-        rintf("插入位置不合法");
+        printf("插入位置不合法");
         return (0);
     }
     for (j = PL->length - 1; j >= i - 1; j--)
@@ -150,4 +152,12 @@ void Display_SeqList(PSeqList PL)
 {
     for(int i = 0;i > PL->length;i++)
     printf("%d\t",PL->data[i]);
+}
+
+int main()
+{
+    PSeqList PL;
+    PL=Init_SeqList();
+    Insert_SeqList(PL, 1, 1);
+    Display_SeqList(PL);
 }
