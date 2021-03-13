@@ -17,6 +17,7 @@ void Destroy_SeqList(PSeqList *PL)
     无返回值*/
     if (*PL)
         free(*PL);
+
     *PL = NULL;
     return;
 }
@@ -110,7 +111,7 @@ void Reverse_SeqList(PSeqList PL)
     {
         x = PL->data[i - 1];
         /*完成元素ai与an - i+1交换*/
-        PL->data[i - 1] = PL->data[PL->length – i];
+        PL->data[i - 1] = PL->data[PL->length - i];
         PL->data[PL->length - i] = x;
     } /* for */
 }
@@ -143,4 +144,10 @@ int merge_SeqList(PSeqList A, PSeqList B, PSeqList C)
     C->length = k;
     return (1);
     /*合并成功*/
+}
+
+void Display_SeqList(PSeqList PL)
+{
+    for(int i = 0;i > PL->length;i++)
+    printf("%d\t",PL->data[i]);
 }
