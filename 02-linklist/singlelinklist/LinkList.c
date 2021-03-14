@@ -5,12 +5,13 @@
 int main()
 {
     LinkList LL;
-    LL=Creat_LinkList();
-    Insert_LinkList(LL,1,5);
-    Insert_LinkList(LL,2,6);
-    Insert_LinkList(LL,3,7);
-    Insert_LinkList(LL,4,8);
+    LL = Creat_LinkList();
+    Insert_LinkList(LL, 1, 5);
+    Insert_LinkList(LL, 2, 6);
+    Insert_LinkList(LL, 3, 7);
+    Insert_LinkList(LL, 4, 8);
     Display_LinkList(LL);
+    josephus_LinkList(LL,2,2);
     return 0;
 }
 LinkList Creat_LinkList(void)
@@ -118,9 +119,39 @@ int Del_LinkList(LinkList H, int i)
 
 void Display_LinkList(LinkList LL)
 {
-    while(LL->next!=NULL)
+    while (LL->next != NULL)
     {
-        printf("%d\n",(*LL).next->data);
-        LL=LL->next;
+        printf("%d\n", (*LL).next->data);
+        LL = LL->next;
     }
+}
+
+int josephus_LinkList(LinkList josephus_Link, int s, int m)
+{ /*返回值：1表示成功，0表示表中没有元素*/
+    LinkList p, pre;
+    int count; /*p指向当前结点，pre指向其前驱结点*/
+    if (!josephus_Link)
+    {
+        printf("表中无元素");
+        return (0);
+    }
+    p = josephus_Link;
+    for (count = 1; count < s; count++) /*查找第s个结点，用p指向第s个结点*/
+        p = p->next;
+    printf("out josephus number:");
+    while (p != p->next)
+    { /*不是最后一个元素,输出 n-1个元素个结点*/
+        for (count = 1; count < m; count++)
+        {
+            pre = p;
+            p = p->next;
+        }
+        printf("% d\t", p->data);
+        pre->next = p->next;
+        free(p);
+        p = pre->next;
+    }                         /*while*/
+    printf("% d\t", p->data); /*输出最后一个元素个结点*/
+    free(p);
+    return 1;
 }

@@ -6,13 +6,15 @@ int main()
 {
     PSeqList PL;
     PL = Init_SeqList();
-    Insert_SeqList(PL,1,5);
-    Insert_SeqList(PL,2,6);
-    Insert_SeqList(PL,3,7);
-    Insert_SeqList(PL,4,8);
+    Insert_SeqList(PL, 1, 5);
+    Insert_SeqList(PL, 2, 6);
+    Insert_SeqList(PL, 3, 7);
+    Insert_SeqList(PL, 4, 8);
     Display_SeqList(PL);
-    Delete_SeqList(PL,2);
+    Delete_SeqList(PL, 2);
     Display_SeqList(PL);
+    printf("\n");
+    josephus_SeqList(PL,2,2);
 
     return 0;
 }
@@ -166,6 +168,25 @@ int merge_SeqList(PSeqList A, PSeqList B, PSeqList C)
 void Display_SeqList(PSeqList PL)
 {
     for (int i = 0; i < PL->length; i++)
-        printf("%d\t", PL->data[i]);
+        printf("%d\n", PL->data[i]);
 }
 
+int josephus_SeqList(PSeqList josephus_seq, int s, int m)
+{ /*出口参数：1表示成功，0表示表中没有元素*/
+    int s1, i, w;
+    if (!josephus_seq->length)
+    {
+        printf("表中无元素");
+        return (0);
+    }
+    s1 = s - 1; /*data数组中下标从0开始*/
+    printf("out josephus number:");
+    for (i = josephus_seq->length; i > 0; i--)
+    {
+        s1 = (s1 + m - 1) % i; /*找到出列元素的下标，i是当时数组的大小*/
+        w = josephus_seq->data[s1];
+        printf("%d\t", w);
+        Delete_SeqList(josephus_seq, s1 + 1); /*删除出列元素*/
+    }                                             /*for */
+    return (1);                                   /*成功返回*/
+}

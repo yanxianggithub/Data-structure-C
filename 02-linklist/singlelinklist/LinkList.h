@@ -14,3 +14,4 @@ LinkList Locate_LinkListx(LinkList H, int x);
 int Insert_LinkList(LinkList H, int i, int x);
 int Del_LinkList(LinkList H, int i);
 void Display_LinkList(LinkList LL);
+int josephus_LinkList(LinkList josephus_Link, int s, int m);
