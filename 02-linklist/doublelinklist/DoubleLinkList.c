@@ -16,7 +16,7 @@ DLinkList Creat_DoubleLinkList(void)
 
 void Destroy_DoubleLinkList(DLinkList H)
 {
-    
+    printf("LL");
 }
 
 int Length_DoubleLinkList(DLinkList H)
