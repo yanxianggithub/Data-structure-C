@@ -6,12 +6,20 @@ int main()
 {
     LinkList LL;
     LL = Creat_LinkList();
-    Insert_LinkList(LL, 1, 5);
-    Insert_LinkList(LL, 2, 6);
-    Insert_LinkList(LL, 3, 7);
-    Insert_LinkList(LL, 4, 8);
-    Display_LinkList(LL);
-    josephus_LinkList(LL,2,2);
+    for (int i = 1; i <= 10; i++)
+    {
+        Insert_LinkList(LL, i, i);
+    }                     //插入数据
+    Display_LinkList(LL); //输出链表
+    Reverse_LinkList(LL);//逆置链表
+    Display_LinkList(LL);//输出逆置链表
+    printf("Length:");
+    printf("%d  ",Length_LinkList(LL));
+    Del_LinkList(LL,2);
+    printf("%d",Length_LinkList(LL));
+    josephus_LinkList(LL,3,3);
+    Destroy_LinkList(LL);
+
     return 0;
 }
 LinkList Creat_LinkList(void)
@@ -95,6 +103,20 @@ int Insert_LinkList(LinkList H, int i, int x)
     q->next = p->next; /*新结点插入在第i-1个结点的后面*/
     p->next = q;
     return 1; /*插入成功，则返回*/
+}
+
+void Reverse_LinkList(LinkList H)
+{
+    LinkList p;
+    p = H->next;
+    H->next = NULL;
+    while (p)
+    {
+        LinkList q = p;
+        p = p->next;
+        q->next = H->next;
+        H->next = q;
+    } /*while*/
 }
 
 int Del_LinkList(LinkList H, int i)
