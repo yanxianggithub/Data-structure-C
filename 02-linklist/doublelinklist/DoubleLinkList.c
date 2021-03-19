@@ -66,7 +66,7 @@ DLinkList Locate_DoubleLinkListx(DLinkList H, int x)
 int Insert_DoubleLinkList(DLinkList H, int i, int x)
 { /*返回参数：成功标志，0不成功，1成功*/
     DLinkList p, s;
-    p = Locate_DoubleLinkListi(H, i-1); /*找第i个结点地址*/
+    p = Locate_DoubleLinkListi(H, i - 1); /*找第i个结点地址*/
     if (!p)
     {
         printf("i有误");
