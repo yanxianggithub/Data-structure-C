@@ -7,7 +7,6 @@
             "args": [
                 "-g",
                 "${file}",
-                "${fileDirname}\\01-arraylist\\ArrayList.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
