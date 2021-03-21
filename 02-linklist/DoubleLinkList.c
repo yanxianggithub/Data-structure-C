@@ -10,10 +10,9 @@ DoubleLinkList Creat_DoubleLinkList(void)
     return H;
 }
 
-/*void Destroy_DoubleLinkList(DoubleLinkList H)
+void Destroy_DoubleLinkList(DoubleLinkList H)
 {
-    return 0;
-}*/
+}
 
 int Length_DoubleLinkList(DoubleLinkList H)
 {

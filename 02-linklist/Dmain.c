@@ -5,7 +5,7 @@
 
 int main()
 {
-    DLinkList DL;
+    DoubleLinkList DL;
     DL = Creat_DoubleLinkList();
     for (int i = 1; i <= 10; i++)
     {

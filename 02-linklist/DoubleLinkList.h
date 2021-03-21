@@ -12,12 +12,13 @@ typedef struct node
     struct node *prior,*next; /*存放后继元素的地址*/
 } DNode, *DoubleLinkList;
 
-
-
-
-
-
-
-
+DoubleLinkList Creat_DoubleLinkList(void);
+void Destroy_DoubleLinkList(DoubleLinkList H);
+int Length_DoubleLinkList(DoubleLinkList H);
+DoubleLinkList Locate_DoubleLinkList_Pos(DoubleLinkList H, int i);
+DoubleLinkList Locate_DoubleLinkList_Value(DoubleLinkList H, int x);
+int Insert_DoubleLinkList(DoubleLinkList H, int i, int x);
+int Del_DoubleLinkList(DoubleLinkList H, int i);
+void Display_DoubleLinkList(DoubleLinkList DL);
 
 #endif //DATA_STRUCTURE_C_DOUBLELINKLIST_H

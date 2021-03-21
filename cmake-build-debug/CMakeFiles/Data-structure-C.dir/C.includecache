@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.c
-SingleLinkList.h
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/DoubleLinkList.c
+DoubleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/DoubleLinkList.h
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/DoubleLinkList.h
 stdio.h
 -
 stdlib.h
 -
-
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/Smain.c
-SingleLinkList.h
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h
 
