@@ -1,45 +1,28 @@
-#include"LinkList.h"
+#include"DoubleLinkList.h"
 
-int main()
+DoubleLinkList Creat_DoubleLinkList(void)
 {
-    DLinkList DL;
-    DL = Creat_DoubleLinkList();
-    for (int i = 1; i <= 10; i++)
-    {
-        Insert_DoubleLinkList(DL, i, i);
-    }                           /*双向链表赋值*/
-    Display_DoubleLinkList(DL); //输出双向链表
-    //Locate_DoubleLinkListi(DL, 2); //检索链表位置2元素
-    //Del_DoubleLinkList(DL, 2);     //删除链表位置2元素
-    //Display_DoubleLinkList(DL);
-    //Destroy_DoubleLinkList(DL);
-
-    return 0;
-}
-
-DLinkList Creat_DoubleLinkList(void)
-{
-    DLinkList H;
-    H = (DLinkList)malloc(sizeof(DuNode));
+    DoubleLinkList H;
+    H = (DoubleLinkList)malloc(sizeof(DNode));
     if (H) /*确认创建头结点创建是否成功，若成功，修改单链表头结点的指针域为0表空表*/
         H->next = NULL;
     H->prior = NULL;
     return H;
 }
 
-/*void Destroy_DoubleLinkList(DLinkList H)
+/*void Destroy_DoubleLinkList(DoubleLinkList H)
 {
     return 0;
 }*/
 
-int Length_DoubleLinkList(DLinkList H)
+int Length_DoubleLinkList(DoubleLinkList H)
 {
     return 0;
 }
 
-DLinkList Locate_DoubleLinkListi(DLinkList H, int i)
+DoubleLinkList Locate_DoubleLinkList_Pos(DoubleLinkList H, int i)
 {
-    DLinkList p;
+    DoubleLinkList p;
     int j = 0;
     p = H;
 
@@ -56,21 +39,21 @@ DLinkList Locate_DoubleLinkListi(DLinkList H, int i)
     return (p);
 }
 
-DLinkList Locate_DoubleLinkListx(DLinkList H, int x)
+DoubleLinkList Locate_DoubleLinkList_Value(DoubleLinkList H, int x)
 {
     return 0;
 }
 
-int Insert_DoubleLinkList(DLinkList H, int i, int x)
+int Insert_DoubleLinkList(DoubleLinkList H, int i, int x)
 { /*返回参数：成功标志，0不成功，1成功*/
-    DLinkList p, s;
-    p = Locate_DoubleLinkListi(H, i - 1); /*找第i个结点地址*/
+    DoubleLinkList p, s;
+    p = Locate_DoubleLinkList_Pos(H, i - 1); /*找第i个结点地址*/
     if (!p)
     {
         printf("i有误");
         return (0);
     }
-    s = (DLinkList)malloc(sizeof(DuNode));
+    s = (DoubleLinkList)malloc(sizeof(DNode));
     if (!s)
     {
         printf("申请空间失败");
@@ -83,15 +66,15 @@ int Insert_DoubleLinkList(DLinkList H, int i, int x)
     return 1; /*插入成功，则返回*/
 }
 
-int Del_DoubleLinkList(DLinkList H, int i)
+int Del_DoubleLinkList(DoubleLinkList H, int i)
 { /*删除单链表H上的第i个结点;返回参数：0不成功，1成功*/
-    DLinkList p;
+    DoubleLinkList p;
     if (H == NULL || H->next == NULL)
     {
         printf("空表不能删除");
         return (0);
     }
-    p = Locate_DoubleLinkListi(H, i); /*找第i个结点地址*/
+    p = Locate_DoubleLinkList_Pos(H, i); /*找第i个结点地址*/
     if (p == NULL || p->next == NULL)
     {
         printf("参数 i 错");
@@ -103,7 +86,7 @@ int Del_DoubleLinkList(DLinkList H, int i)
     return (1);
 }
 
-void Display_DoubleLinkList(DLinkList DL)
+void Display_DoubleLinkList(DoubleLinkList DL)
 {
     while (DL->next != NULL)
     {

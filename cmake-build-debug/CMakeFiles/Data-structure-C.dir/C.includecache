@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.c
+SingleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h
+
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/Smain.c
+SingleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h
+
