@@ -5,20 +5,20 @@ typedef struct node
 {
     int data;
     struct node *next;
-} LNode, *CircleLinkList;
+} LNode, *SingleLinkList;
 
-CircleLinkList Creat_LinkList(void)
+SingleLinkList Creat_LinkList(void)
 {
-    CircleLinkList H;
-    H = (CircleLinkList)malloc(sizeof(LNode));
+    SingleLinkList H;
+    H = (SingleLinkList)malloc(sizeof(LNode));
     if (H)
         H->next = NULL;
     return H;
 }
 
-CircleLinkList Locate_LinkListi(CircleLinkList H, int i)
+SingleLinkList Locate_LinkListi(SingleLinkList H, int i)
 {
-    CircleLinkList p;
+    SingleLinkList p;
     int j;
     p = H;
     j = 0;
@@ -35,16 +35,16 @@ CircleLinkList Locate_LinkListi(CircleLinkList H, int i)
     return (p);
 }
 
-int Insert_LinkList(CircleLinkList H, int i, int x)
+int Insert_LinkList(SingleLinkList H, int i, int x)
 {
-    CircleLinkList p, q;
+    SingleLinkList p, q;
     p = Locate_LinkListi(H, i - 1);
     if (!p)
     {
         printf("i有误");
         return (0);
     }
-    q = (CircleLinkList)malloc(sizeof(LNode));
+    q = (SingleLinkList)malloc(sizeof(LNode));
     if (!q)
     {
         printf("申请空间失败");
@@ -56,9 +56,9 @@ int Insert_LinkList(CircleLinkList H, int i, int x)
     return 1;
 }
 
-int Del_LinkList(CircleLinkList H, int i)
+int Del_LinkList(SingleLinkList H, int i)
 {
-    CircleLinkList p, q;
+    SingleLinkList p, q;
     if (H == NULL || H->next == NULL)
     {
         printf("空表不能删除");
@@ -76,7 +76,7 @@ int Del_LinkList(CircleLinkList H, int i)
     return (1);
 }
 
-void Display_LinkList(CircleLinkList LL)
+void Display_LinkList(SingleLinkList LL)
 {
     while (LL->next != NULL)
     {
@@ -85,9 +85,9 @@ void Display_LinkList(CircleLinkList LL)
     }
 }
 
-CircleLinkList sortLinkList(CircleLinkList L)
+SingleLinkList sortLinkList(SingleLinkList L)
 {
-    CircleLinkList p, q, min;
+    SingleLinkList p, q, min;
     int temp;
     for (p = L->next; p->next != NULL; p = p->next)
     {
@@ -111,7 +111,7 @@ CircleLinkList sortLinkList(CircleLinkList L)
 
 int main()
 {
-    CircleLinkList LL;
+    SingleLinkList LL;
     LL = Creat_LinkList();
     for (int i = 1; i <= 10; i++)
     {
