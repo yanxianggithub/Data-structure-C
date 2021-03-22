@@ -1,3 +1,0 @@
-C:/Users/asus/Documents/GitHub/Data-structure-C/build/CMakeFiles/Data-structure-C.dir
-C:/Users/asus/Documents/GitHub/Data-structure-C/build/CMakeFiles/edit_cache.dir
-C:/Users/asus/Documents/GitHub/Data-structure-C/build/CMakeFiles/rebuild_cache.dir
