@@ -11,4 +11,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 # add_executable(Data-structure-C 02-linklist/DoubleLinkList.h 02-linklist/DoubleLinkList.c 02-linklist/Dmain.c)
 
-add_executable(Data-structure-C 00-other/CLinkList.c 00-other/123.cpp)
+add_executable(Data-structure-C 00-other/CLinkList.c)
