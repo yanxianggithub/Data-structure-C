@@ -142,59 +142,59 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-02-linklist/SingleLinkList.obj: 02-linklist/SingleLinkList.c.obj
+02-linklist/CircleLinkList.obj: 02-linklist/CircleLinkList.c.obj
 
-.PHONY : 02-linklist/SingleLinkList.obj
-
-# target to build an object file
-02-linklist/SingleLinkList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj
-.PHONY : 02-linklist/SingleLinkList.c.obj
-
-02-linklist/SingleLinkList.i: 02-linklist/SingleLinkList.c.i
-
-.PHONY : 02-linklist/SingleLinkList.i
-
-# target to preprocess a source file
-02-linklist/SingleLinkList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.i
-.PHONY : 02-linklist/SingleLinkList.c.i
-
-02-linklist/SingleLinkList.s: 02-linklist/SingleLinkList.c.s
-
-.PHONY : 02-linklist/SingleLinkList.s
-
-# target to generate assembly for a file
-02-linklist/SingleLinkList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.s
-.PHONY : 02-linklist/SingleLinkList.c.s
-
-02-linklist/Smain.obj: 02-linklist/Smain.c.obj
-
-.PHONY : 02-linklist/Smain.obj
+.PHONY : 02-linklist/CircleLinkList.obj
 
 # target to build an object file
-02-linklist/Smain.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj
-.PHONY : 02-linklist/Smain.c.obj
+02-linklist/CircleLinkList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj
+.PHONY : 02-linklist/CircleLinkList.c.obj
 
-02-linklist/Smain.i: 02-linklist/Smain.c.i
+02-linklist/CircleLinkList.i: 02-linklist/CircleLinkList.c.i
 
-.PHONY : 02-linklist/Smain.i
+.PHONY : 02-linklist/CircleLinkList.i
 
 # target to preprocess a source file
-02-linklist/Smain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.i
-.PHONY : 02-linklist/Smain.c.i
+02-linklist/CircleLinkList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.i
+.PHONY : 02-linklist/CircleLinkList.c.i
 
-02-linklist/Smain.s: 02-linklist/Smain.c.s
+02-linklist/CircleLinkList.s: 02-linklist/CircleLinkList.c.s
 
-.PHONY : 02-linklist/Smain.s
+.PHONY : 02-linklist/CircleLinkList.s
 
 # target to generate assembly for a file
-02-linklist/Smain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.s
-.PHONY : 02-linklist/Smain.c.s
+02-linklist/CircleLinkList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.s
+.PHONY : 02-linklist/CircleLinkList.c.s
+
+02-linklist/Cmain.obj: 02-linklist/Cmain.c.obj
+
+.PHONY : 02-linklist/Cmain.obj
+
+# target to build an object file
+02-linklist/Cmain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj
+.PHONY : 02-linklist/Cmain.c.obj
+
+02-linklist/Cmain.i: 02-linklist/Cmain.c.i
+
+.PHONY : 02-linklist/Cmain.i
+
+# target to preprocess a source file
+02-linklist/Cmain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.i
+.PHONY : 02-linklist/Cmain.c.i
+
+02-linklist/Cmain.s: 02-linklist/Cmain.c.s
+
+.PHONY : 02-linklist/Cmain.s
+
+# target to generate assembly for a file
+02-linklist/Cmain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.s
+.PHONY : 02-linklist/Cmain.c.s
 
 # Help Target
 help:
@@ -205,12 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 02-linklist/SingleLinkList.obj
-	@echo ... 02-linklist/SingleLinkList.i
-	@echo ... 02-linklist/SingleLinkList.s
-	@echo ... 02-linklist/Smain.obj
-	@echo ... 02-linklist/Smain.i
-	@echo ... 02-linklist/Smain.s
+	@echo ... 02-linklist/CircleLinkList.obj
+	@echo ... 02-linklist/CircleLinkList.i
+	@echo ... 02-linklist/CircleLinkList.s
+	@echo ... 02-linklist/Cmain.obj
+	@echo ... 02-linklist/Cmain.i
+	@echo ... 02-linklist/Cmain.s
 .PHONY : help
 
 

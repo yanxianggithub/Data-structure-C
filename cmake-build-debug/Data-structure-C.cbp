@@ -80,13 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.c">
+		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/CircleLinkList.c">
 			<Option target="Data-structure-C"/>
 		</Unit>
-		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/SingleLinkList.h">
+		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/CircleLinkList.h">
 			<Option target="Data-structure-C"/>
 		</Unit>
-		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/Smain.c">
+		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/Cmain.c">
 			<Option target="Data-structure-C"/>
 		</Unit>
 		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/CMakeLists.txt">

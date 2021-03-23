@@ -1,4 +1,4 @@
-#include"SingleLinkList.h"
+#include "SingleLinkList.h"
 
 int main()
 {
@@ -7,7 +7,7 @@ int main()
     for (int i = 1; i <= 10; i++)
     {
         Insert_SingleLinkList(LL, i, i);
-    }                     //插入数据
+    }                           //插入数据
     Display_SingleLinkList(LL); //输出链表
     Reverse_SingleLinkList(LL); //逆置链表
     Display_SingleLinkList(LL); //输出逆置链表
@@ -20,5 +20,3 @@ int main()
 
     return 0;
 }
-
-

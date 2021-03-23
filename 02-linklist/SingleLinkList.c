@@ -23,10 +23,10 @@ void Destroy_SingleLinkList(SingleLinkList H)
 }
 
 int Length_SingleLinkList(SingleLinkList H)
-{                   /* 求单链表表长，入口参数：单链表头指针，出口参数：表长，-1表示
+{                         /* 求单链表表长，入口参数：单链表头指针，出口参数：表长，-1表示
        单链表不存在。*/
     SingleLinkList p = H; /* p指向头结点*/
-    int count = -1; /*H带头结点所以从－1开始*/
+    int count = -1;       /*H带头结点所以从－1开始*/
     while (p)
     { /* p所指的是第 count + 1 个结点*/
         p = p->next;
@@ -38,9 +38,8 @@ int Length_SingleLinkList(SingleLinkList H)
 SingleLinkList Locate_SingleLinkList_Pos(SingleLinkList H, int i)
 {
     SingleLinkList p;
-    int j;
+    int j = 0;
     p = H;
-    j = 0;
     while (p && j < i)
     { /*查找第i个结点*/
         p = p->next;

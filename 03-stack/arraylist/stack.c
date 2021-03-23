@@ -1,8 +1,6 @@
-#include<stdio.h>
-#include"stack.h"
+#include <stdio.h>
+#include "stack.h"
 
 int main()
 {
-
 }
-
