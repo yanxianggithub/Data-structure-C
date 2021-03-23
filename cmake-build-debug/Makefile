@@ -142,59 +142,59 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-02-linklist/Dmain.obj: 02-linklist/Dmain.c.obj
+02-linklist/SingleLinkList.obj: 02-linklist/SingleLinkList.c.obj
 
-.PHONY : 02-linklist/Dmain.obj
-
-# target to build an object file
-02-linklist/Dmain.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.obj
-.PHONY : 02-linklist/Dmain.c.obj
-
-02-linklist/Dmain.i: 02-linklist/Dmain.c.i
-
-.PHONY : 02-linklist/Dmain.i
-
-# target to preprocess a source file
-02-linklist/Dmain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.i
-.PHONY : 02-linklist/Dmain.c.i
-
-02-linklist/Dmain.s: 02-linklist/Dmain.c.s
-
-.PHONY : 02-linklist/Dmain.s
-
-# target to generate assembly for a file
-02-linklist/Dmain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.s
-.PHONY : 02-linklist/Dmain.c.s
-
-02-linklist/DoubleLinkList.obj: 02-linklist/DoubleLinkList.c.obj
-
-.PHONY : 02-linklist/DoubleLinkList.obj
+.PHONY : 02-linklist/SingleLinkList.obj
 
 # target to build an object file
-02-linklist/DoubleLinkList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.obj
-.PHONY : 02-linklist/DoubleLinkList.c.obj
+02-linklist/SingleLinkList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj
+.PHONY : 02-linklist/SingleLinkList.c.obj
 
-02-linklist/DoubleLinkList.i: 02-linklist/DoubleLinkList.c.i
+02-linklist/SingleLinkList.i: 02-linklist/SingleLinkList.c.i
 
-.PHONY : 02-linklist/DoubleLinkList.i
+.PHONY : 02-linklist/SingleLinkList.i
 
 # target to preprocess a source file
-02-linklist/DoubleLinkList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.i
-.PHONY : 02-linklist/DoubleLinkList.c.i
+02-linklist/SingleLinkList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.i
+.PHONY : 02-linklist/SingleLinkList.c.i
 
-02-linklist/DoubleLinkList.s: 02-linklist/DoubleLinkList.c.s
+02-linklist/SingleLinkList.s: 02-linklist/SingleLinkList.c.s
 
-.PHONY : 02-linklist/DoubleLinkList.s
+.PHONY : 02-linklist/SingleLinkList.s
 
 # target to generate assembly for a file
-02-linklist/DoubleLinkList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.s
-.PHONY : 02-linklist/DoubleLinkList.c.s
+02-linklist/SingleLinkList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.s
+.PHONY : 02-linklist/SingleLinkList.c.s
+
+02-linklist/Smain.obj: 02-linklist/Smain.c.obj
+
+.PHONY : 02-linklist/Smain.obj
+
+# target to build an object file
+02-linklist/Smain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj
+.PHONY : 02-linklist/Smain.c.obj
+
+02-linklist/Smain.i: 02-linklist/Smain.c.i
+
+.PHONY : 02-linklist/Smain.i
+
+# target to preprocess a source file
+02-linklist/Smain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.i
+.PHONY : 02-linklist/Smain.c.i
+
+02-linklist/Smain.s: 02-linklist/Smain.c.s
+
+.PHONY : 02-linklist/Smain.s
+
+# target to generate assembly for a file
+02-linklist/Smain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.s
+.PHONY : 02-linklist/Smain.c.s
 
 # Help Target
 help:
@@ -205,12 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 02-linklist/Dmain.obj
-	@echo ... 02-linklist/Dmain.i
-	@echo ... 02-linklist/Dmain.s
-	@echo ... 02-linklist/DoubleLinkList.obj
-	@echo ... 02-linklist/DoubleLinkList.i
-	@echo ... 02-linklist/DoubleLinkList.s
+	@echo ... 02-linklist/SingleLinkList.obj
+	@echo ... 02-linklist/SingleLinkList.i
+	@echo ... 02-linklist/SingleLinkList.s
+	@echo ... 02-linklist/Smain.obj
+	@echo ... 02-linklist/Smain.i
+	@echo ... 02-linklist/Smain.s
 .PHONY : help
 
 

@@ -76,42 +76,42 @@ include CMakeFiles/Data-structure-C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Data-structure-C.dir/flags.make
 
-CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
-CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.obj: ../02-linklist/DoubleLinkList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\02-linklist\DoubleLinkList.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\DoubleLinkList.c
+CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
+CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj: ../02-linklist/SingleLinkList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\02-linklist\SingleLinkList.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\SingleLinkList.c
 
-CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\DoubleLinkList.c > CMakeFiles\Data-structure-C.dir\02-linklist\DoubleLinkList.c.i
+CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\SingleLinkList.c > CMakeFiles\Data-structure-C.dir\02-linklist\SingleLinkList.c.i
 
-CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\DoubleLinkList.c -o CMakeFiles\Data-structure-C.dir\02-linklist\DoubleLinkList.c.s
+CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\SingleLinkList.c -o CMakeFiles\Data-structure-C.dir\02-linklist\SingleLinkList.c.s
 
-CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
-CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.obj: ../02-linklist/Dmain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\02-linklist\Dmain.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Dmain.c
+CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
+CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj: ../02-linklist/Smain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\02-linklist\Smain.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Smain.c
 
-CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Dmain.c > CMakeFiles\Data-structure-C.dir\02-linklist\Dmain.c.i
+CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Smain.c > CMakeFiles\Data-structure-C.dir\02-linklist\Smain.c.i
 
-CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Dmain.c -o CMakeFiles\Data-structure-C.dir\02-linklist\Dmain.c.s
+CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Smain.c -o CMakeFiles\Data-structure-C.dir\02-linklist\Smain.c.s
 
 # Object files for target Data-structure-C
 Data__structure__C_OBJECTS = \
-"CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.obj" \
-"CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.obj"
+"CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj" \
+"CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj"
 
 # External object files for target Data-structure-C
 Data__structure__C_EXTERNAL_OBJECTS =
 
-Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/02-linklist/DoubleLinkList.c.obj
-Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/02-linklist/Dmain.c.obj
+Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/02-linklist/SingleLinkList.c.obj
+Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/02-linklist/Smain.c.obj
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/build.make
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/linklibs.rsp
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/objects1.rsp
