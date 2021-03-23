@@ -1,0 +1,7 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Administrator/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_520a9/fast && Access violation
+Generator: execution of make failed. Make command was: C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_520a9/fast && 
+
+
