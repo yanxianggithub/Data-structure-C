@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/CircleLinkList.c
-CircleLinkList.h
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/CircleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Array.c
+Stack_Array.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Array.h
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/02-linklist/CircleLinkList.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Array.h
 stdio.h
 -
 stdlib.h

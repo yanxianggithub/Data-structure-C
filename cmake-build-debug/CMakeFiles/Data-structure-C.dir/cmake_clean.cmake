@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj"
-  "CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj"
+  "CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj"
   "Data-structure-C.exe"
   "Data-structure-C.exe.manifest"
   "Data-structure-C.pdb"

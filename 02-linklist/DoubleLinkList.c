@@ -1,5 +1,22 @@
 #include "DoubleLinkList.h"
 
+int main()
+{
+    DoubleLinkList DL;
+    DL = Creat_DoubleLinkList();
+    for (int i = 1; i <= 10; i++)
+    {
+        Insert_DoubleLinkList(DL, i, i);
+    }                                                         /*双向链表赋值*/
+    Display_DoubleLinkList(DL);                               //输出双向链表
+    printf("\n%d\n", Locate_DoubleLinkList_Pos(DL, 2)->data); //检索链表位置2元素
+    Delete_DoubleLinkList(DL, 2);                                //删除链表位置2元素
+    Display_DoubleLinkList(DL);
+    Destroy_DoubleLinkList(DL);
+
+    return 0;
+}
+
 DoubleLinkList Creat_DoubleLinkList(void)
 { /*创建空单链表，入口参数：无；返回值：单链表的头指针，0代表创建失败，非0表成功*/
     DoubleLinkList H;

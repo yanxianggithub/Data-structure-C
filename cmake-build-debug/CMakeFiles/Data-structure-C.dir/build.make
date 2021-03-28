@@ -76,47 +76,32 @@ include CMakeFiles/Data-structure-C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Data-structure-C.dir/flags.make
 
-CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
-CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj: ../02-linklist/CircleLinkList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\02-linklist\CircleLinkList.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\CircleLinkList.c
+CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
+CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj: ../03-stack/Stack_Array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\03-stack\Stack_Array.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\03-stack\Stack_Array.c
 
-CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\CircleLinkList.c > CMakeFiles\Data-structure-C.dir\02-linklist\CircleLinkList.c.i
+CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\03-stack\Stack_Array.c > CMakeFiles\Data-structure-C.dir\03-stack\Stack_Array.c.i
 
-CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\CircleLinkList.c -o CMakeFiles\Data-structure-C.dir\02-linklist\CircleLinkList.c.s
-
-CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
-CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj: ../02-linklist/Cmain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\02-linklist\Cmain.c.obj   -c C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Cmain.c
-
-CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Cmain.c > CMakeFiles\Data-structure-C.dir\02-linklist\Cmain.c.i
-
-CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\02-linklist\Cmain.c -o CMakeFiles\Data-structure-C.dir\02-linklist\Cmain.c.s
+CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\03-stack\Stack_Array.c -o CMakeFiles\Data-structure-C.dir\03-stack\Stack_Array.c.s
 
 # Object files for target Data-structure-C
 Data__structure__C_OBJECTS = \
-"CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj" \
-"CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj"
+"CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj"
 
 # External object files for target Data-structure-C
 Data__structure__C_EXTERNAL_OBJECTS =
 
-Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/02-linklist/CircleLinkList.c.obj
-Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/02-linklist/Cmain.c.obj
+Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/build.make
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/linklibs.rsp
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/objects1.rsp
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Data-structure-C.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Data-structure-C.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Data-structure-C.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

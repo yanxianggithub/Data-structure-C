@@ -1,5 +1,21 @@
 #include "CircleLinkList.h"
 
+int main()
+{
+    CircleLinkList CL;
+    CL = Creat_CircleLinkList();
+    for(int i = 1;i <=5 ;i++)
+    {
+        Insert_CircleLinkList(CL,i,i);
+    }
+    Display_CircleLinkList(CL,12);
+    Delete_CircleLinkList(CL,2);
+    printf("\n");
+    Display_CircleLinkList(CL,12);
+
+
+}
+
 CircleLinkList Creat_CircleLinkList(void)
 { /*创建空单链表，入口参数：无；返回值：单链表的头指针，0代表创建失败，非0表成功*/
     CircleLinkList H;
