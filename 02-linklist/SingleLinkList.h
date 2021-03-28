@@ -12,9 +12,9 @@ typedef struct node
 SingleLinkList Creat_SingleLinkList(void);
 void Destroy_SingleLinkList(SingleLinkList H);
 int Length_SingleLinkList(SingleLinkList H);
-SingleLinkList Locate_SingleLinkList_Pos(SingleLinkList H, int i);
-SingleLinkList Locate_SingleLinkList_Value(SingleLinkList H, int x);
-int Insert_SingleLinkList(SingleLinkList H, int i, int x);
+SingleLinkList Locate_SingleLinkList_Pos(SingleLinkList H, DataType i);
+SingleLinkList Locate_SingleLinkList_Value(SingleLinkList H, DataType x);
+int Insert_SingleLinkList(SingleLinkList H, int i, DataType x);
 int Delete_SingleLinkList(SingleLinkList H, int i);
 void Reverse_SingleLinkList(SingleLinkList H);
 void Display_SingleLinkList(SingleLinkList LL);

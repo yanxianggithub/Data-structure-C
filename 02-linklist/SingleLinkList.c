@@ -56,7 +56,7 @@ int Length_SingleLinkList(SingleLinkList H)
     return (count);
 }
 
-SingleLinkList Locate_SingleLinkList_Pos(SingleLinkList H, int i)
+SingleLinkList Locate_SingleLinkList_Pos(SingleLinkList H, DataType i)
 {
     SingleLinkList p;
     int j = 0;
@@ -74,7 +74,7 @@ SingleLinkList Locate_SingleLinkList_Pos(SingleLinkList H, int i)
     return (p);
 }
 
-SingleLinkList Locate_SingleLinkList_Value(SingleLinkList H, int x)
+SingleLinkList Locate_SingleLinkList_Value(SingleLinkList H, DataType x)
 { /*在单链表中查找值为x的结点，入口参数：单链表指针，检索元素,出口参数：找到后返回其指针，否则返回NULL*/
     SingleLinkList p = H->next;
     while (p && p->data != x)
@@ -82,7 +82,7 @@ SingleLinkList Locate_SingleLinkList_Value(SingleLinkList H, int x)
     return (p);
 }
 
-int Insert_SingleLinkList(SingleLinkList H, int i, int x)
+int Insert_SingleLinkList(SingleLinkList H, int i, DataType x)
 { /*返回参数：成功标志，0不成功，1成功*/
     SingleLinkList p, q;
     p = Locate_SingleLinkList_Pos(H, i - 1); /*找第i-1个结点地址*/
