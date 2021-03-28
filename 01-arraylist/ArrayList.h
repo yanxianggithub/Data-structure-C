@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 100
+#define DataType int
 
 typedef struct node
 {
-      int data[MAXSIZE];
+      DataType data[MAXSIZE];
       int length;
 } SeqList, *PSeqList;
 

@@ -1,10 +1,11 @@
 #pragma once
 #include <stdio.h>
 #include <stdlib.h>
+#define DataType int
 
 typedef struct node
 {
-    int data;          /*每个元素数据信息*/
+    DataType data;     /*每个元素数据信息*/
     struct node *next; /*存放后继元素的地址*/
 } LNode, *SingleLinkList;
 
