@@ -87,10 +87,18 @@ int Insert_CircleLinkList(CircleLinkList H, int i, int x)
     if (p == H)
     {
         S->data = x;
-        S->next = p->next;
-        p->next->prior = S;
+        p->next = S;
+        S->next = p;
+        S->prior = p;
+        p->prior = S;
+    }
+    else if (p->next == H && p != H)
+    {
+        S->data = x;
         S->prior = p;
         p->next = S;
+        S->next = H->next;
+        H->prior = S;
     }
     else
     {

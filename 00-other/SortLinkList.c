@@ -85,6 +85,7 @@ void Display_LinkList(SingleLinkList LL)
     }
 }
 
+/*
 SingleLinkList sortLinkList(SingleLinkList L)
 {
     SingleLinkList p, q, min;
@@ -108,6 +109,7 @@ SingleLinkList sortLinkList(SingleLinkList L)
     }
     return L;
 }
+*/
 
 int main()
 {
