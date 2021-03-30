@@ -1,2 +1,0 @@
-
-        S->next = H->next;

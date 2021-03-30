@@ -48,7 +48,7 @@ int Length_DoubleLinkList(CircleLinkList H)
 CircleLinkList Locate_CircleLinkList_Pos(CircleLinkList H, int i)
 {
     CircleLinkList p = H;
-    int j = 0;
+    int j = 1;
     while (p->next != H && j < i)
     { /*查找第i个结点*/
         p = p->next;
@@ -72,7 +72,7 @@ int Insert_CircleLinkList(CircleLinkList H, int i, int x)
 {
     /*返回参数：成功标志，0不成功，1成功*/
     CircleLinkList p, S;
-    p = Locate_CircleLinkList_Pos(H, i - 1); /*找第i-1个结点地址*/
+    p = Locate_CircleLinkList_Pos(H, i); /*找第i-1个结点地址*/
     if (!p)
     {
         printf("i有误");
@@ -84,15 +84,7 @@ int Insert_CircleLinkList(CircleLinkList H, int i, int x)
         printf("申请空间失败");
         return (0);
     } /*申请空间失败，不能插入*/
-    if (p == H)
-    {
-        S->data = x;
-        p->next = S;
-        S->next = p;
-        S->prior = p;
-        p->prior = S;
-    }
-    else if (p->next == H && p != H)
+    if (p->next == H->next)
     {
         S->data = x;
         S->prior = p;
