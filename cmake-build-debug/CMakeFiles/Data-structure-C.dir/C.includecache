@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Array.c
-Stack_Array.h
-C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Array.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Link.c
+Stack_Link.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Link.h
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Array.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/03-stack/Stack_Link.h
 stdio.h
 -
 stdlib.h

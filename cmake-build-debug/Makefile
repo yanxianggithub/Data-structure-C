@@ -142,32 +142,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-03-stack/Stack_Array.obj: 03-stack/Stack_Array.c.obj
+03-stack/Stack_Link.obj: 03-stack/Stack_Link.c.obj
 
-.PHONY : 03-stack/Stack_Array.obj
+.PHONY : 03-stack/Stack_Link.obj
 
 # target to build an object file
-03-stack/Stack_Array.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.obj
-.PHONY : 03-stack/Stack_Array.c.obj
+03-stack/Stack_Link.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Link.c.obj
+.PHONY : 03-stack/Stack_Link.c.obj
 
-03-stack/Stack_Array.i: 03-stack/Stack_Array.c.i
+03-stack/Stack_Link.i: 03-stack/Stack_Link.c.i
 
-.PHONY : 03-stack/Stack_Array.i
+.PHONY : 03-stack/Stack_Link.i
 
 # target to preprocess a source file
-03-stack/Stack_Array.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.i
-.PHONY : 03-stack/Stack_Array.c.i
+03-stack/Stack_Link.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Link.c.i
+.PHONY : 03-stack/Stack_Link.c.i
 
-03-stack/Stack_Array.s: 03-stack/Stack_Array.c.s
+03-stack/Stack_Link.s: 03-stack/Stack_Link.c.s
 
-.PHONY : 03-stack/Stack_Array.s
+.PHONY : 03-stack/Stack_Link.s
 
 # target to generate assembly for a file
-03-stack/Stack_Array.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Array.c.s
-.PHONY : 03-stack/Stack_Array.c.s
+03-stack/Stack_Link.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Link.c.s
+.PHONY : 03-stack/Stack_Link.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 03-stack/Stack_Array.obj
-	@echo ... 03-stack/Stack_Array.i
-	@echo ... 03-stack/Stack_Array.s
+	@echo ... 03-stack/Stack_Link.obj
+	@echo ... 03-stack/Stack_Link.i
+	@echo ... 03-stack/Stack_Link.s
 .PHONY : help
 
 

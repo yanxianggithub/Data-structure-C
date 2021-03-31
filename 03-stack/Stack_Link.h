@@ -1,17 +1,22 @@
-#pragma once
 #include <stdio.h>
 #include <stdlib.h>
+#define DataType int
+
+typedef struct node
+{
+    DataType data;
+    struct node *next;
+} StackNode, *PStackNode;
 
 typedef struct
 {
-    int data;
-    int top;
-} SeqStack, *PSeqStack;
+    PStackNode top;
+} LinkStack, *PLinkStack;
 
-PSeqStack Init_Stack();
-int Empty_SeqStack(PSeqStack S);
-int Push_SeqStack(PSeqStack S, int x);
-int Pop_SeqStack(PSeqStack S, int *x);
-int GetTop_SeqStack(PSeqStack S, int *x);
-void Destory_SeqStack(PSeqStack S);
-void Display_SeqStack(PSeqStack S);
+PLinkStack Init_LinkStack(void);
+void Destroy_LinkStack(PLinkStack LS);
+int Empty_LinkStack(PLinkStack S);
+int Push_LinkStack(PLinkStack S, DataType x);
+int Pop_LinkStack(PLinkStack S, DataType *x);
+int GetTop_LinkStack(PLinkStack S, DataType *x);
+void Display_LinkStack(PLinkStack S);
