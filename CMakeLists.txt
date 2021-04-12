@@ -7,8 +7,8 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Data-structure-C 02-linklist/SingleLinkList.h 02-linklist/SingleLinkList.c)
 # add_executable(Data-structure-C 02-linklist/CircleLinkList.c 02-linklist/CircleLinkList.h)
 # add_executable(Data-structure-C 03-stack/Stack_Array.h 03-stack/Stack_Array.c)
-add_executable(Data-structure-C 03-stack/Stack_Link.h 03-stack/Stack_Link.c)
-
+# add_executable(Data-structure-C 03-stack/Stack_Link.h 03-stack/Stack_Link.c)
+add_executable(Data-structure-C 99-test/2.1.c)
 
 
 

@@ -142,32 +142,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-03-stack/Stack_Link.obj: 03-stack/Stack_Link.c.obj
+99-test/2.1.obj: 99-test/2.1.c.obj
 
-.PHONY : 03-stack/Stack_Link.obj
+.PHONY : 99-test/2.1.obj
 
 # target to build an object file
-03-stack/Stack_Link.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Link.c.obj
-.PHONY : 03-stack/Stack_Link.c.obj
+99-test/2.1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/2.1.c.obj
+.PHONY : 99-test/2.1.c.obj
 
-03-stack/Stack_Link.i: 03-stack/Stack_Link.c.i
+99-test/2.1.i: 99-test/2.1.c.i
 
-.PHONY : 03-stack/Stack_Link.i
+.PHONY : 99-test/2.1.i
 
 # target to preprocess a source file
-03-stack/Stack_Link.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Link.c.i
-.PHONY : 03-stack/Stack_Link.c.i
+99-test/2.1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/2.1.c.i
+.PHONY : 99-test/2.1.c.i
 
-03-stack/Stack_Link.s: 03-stack/Stack_Link.c.s
+99-test/2.1.s: 99-test/2.1.c.s
 
-.PHONY : 03-stack/Stack_Link.s
+.PHONY : 99-test/2.1.s
 
 # target to generate assembly for a file
-03-stack/Stack_Link.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/03-stack/Stack_Link.c.s
-.PHONY : 03-stack/Stack_Link.c.s
+99-test/2.1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/2.1.c.s
+.PHONY : 99-test/2.1.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 03-stack/Stack_Link.obj
-	@echo ... 03-stack/Stack_Link.i
-	@echo ... 03-stack/Stack_Link.s
+	@echo ... 99-test/2.1.obj
+	@echo ... 99-test/2.1.i
+	@echo ... 99-test/2.1.s
 .PHONY : help
 
 
