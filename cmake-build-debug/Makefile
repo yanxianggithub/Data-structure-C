@@ -169,6 +169,33 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/2.1.c.s
 .PHONY : 99-test/2.1.c.s
 
+99-test/5.1.obj: 99-test/5.1.c.obj
+
+.PHONY : 99-test/5.1.obj
+
+# target to build an object file
+99-test/5.1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/5.1.c.obj
+.PHONY : 99-test/5.1.c.obj
+
+99-test/5.1.i: 99-test/5.1.c.i
+
+.PHONY : 99-test/5.1.i
+
+# target to preprocess a source file
+99-test/5.1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/5.1.c.i
+.PHONY : 99-test/5.1.c.i
+
+99-test/5.1.s: 99-test/5.1.c.s
+
+.PHONY : 99-test/5.1.s
+
+# target to generate assembly for a file
+99-test/5.1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/5.1.c.s
+.PHONY : 99-test/5.1.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... 99-test/2.1.obj
 	@echo ... 99-test/2.1.i
 	@echo ... 99-test/2.1.s
+	@echo ... 99-test/5.1.obj
+	@echo ... 99-test/5.1.i
+	@echo ... 99-test/5.1.s
 .PHONY : help
 
 

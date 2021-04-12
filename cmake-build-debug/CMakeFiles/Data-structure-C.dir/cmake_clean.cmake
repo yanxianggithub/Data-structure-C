@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Data-structure-C.dir/99-test/2.1.c.obj"
+  "CMakeFiles/Data-structure-C.dir/99-test/5.1.c.obj"
   "Data-structure-C.exe"
   "Data-structure-C.exe.manifest"
   "Data-structure-C.pdb"

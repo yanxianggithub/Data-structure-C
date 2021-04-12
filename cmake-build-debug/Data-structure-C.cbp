@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/2.1.c">
 			<Option target="Data-structure-C"/>
 		</Unit>
+		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/5.1.c">
+			<Option target="Data-structure-C"/>
+		</Unit>
 		<Unit filename="C:/Users/asus/Documents/GitHub/Data-structure-C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
