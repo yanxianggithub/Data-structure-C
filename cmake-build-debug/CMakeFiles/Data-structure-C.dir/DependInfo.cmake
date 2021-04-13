@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/2.1.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/99-test/2.1.c.obj"
-  "C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/5.1.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/99-test/5.1.c.obj"
+  "C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/2.4.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/99-test/2.4.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

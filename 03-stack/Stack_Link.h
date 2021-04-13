@@ -17,6 +17,5 @@ PLinkStack Init_LinkStack(void);
 void Destroy_LinkStack(PLinkStack LS);
 int Empty_LinkStack(PLinkStack S);
 int Push_LinkStack(PLinkStack S, DataType x);
-int Pop_LinkStack(PLinkStack S, DataType *x);
-int GetTop_LinkStack(PLinkStack S, DataType *x);
-void Display_LinkStack(PLinkStack S);
+int Pop_LinkStack(PLinkStack S);
+int GetTop_LinkStack(PLinkStack S);

@@ -2,22 +2,18 @@
 
 int main()
 {
-    int *x = NULL;
     PSeqStack S;
     S = Init_Stack();
-    Push_SeqStack(S, 1);
-    Push_SeqStack(S, 2);
-    Push_SeqStack(S, 3);
-    Push_SeqStack(S, 4);
-    Push_SeqStack(S, 5);
-    Display_SeqStack(S);
+    for (int i = 1; i < 6; ++i)
+    {
+        Push_SeqStack(S, i);
+    }
+    for (int i = 1; i < 6; ++i)
+    {
+        printf("%d",Pop_SeqStack(S));
+    }
 
-    Pop_SeqStack(S, x);
-    printf("\n%d\n", *x);
-    Display_SeqStack(S);
-    printf("\n");
     Destory_SeqStack(S);
-    Display_SeqStack(S);
 }
 
 PSeqStack Init_Stack()
@@ -37,7 +33,7 @@ int Empty_SeqStack(PSeqStack S)
         return 0;
 }
 
-int Push_SeqStack(PSeqStack S, int x)
+int Push_SeqStack(PSeqStack S, DataType x)
 {
     if (S->top == MAXSIZE)
         return 0;
@@ -49,24 +45,28 @@ int Push_SeqStack(PSeqStack S, int x)
     }
 }
 
-int Pop_SeqStack(PSeqStack S, int *x)
+DataType Pop_SeqStack(PSeqStack S)
+{
+    DataType value;
+    if (Empty_SeqStack(S))
+        return 0;
+    else
+    {
+        value = S->data[S->top];
+        S->top--;
+        return value;
+    }
+}
+
+DataType GetTop_SeqStack(PSeqStack S)
 {
     if (Empty_SeqStack(S))
         return 0;
     else
     {
-        *x = S->data[S->top];
-        S->top--;
-        return 1;
+        DataType value = S->data[S->top];
+        return value;
     }
-}
-
-int GetTop_SeqStack(PSeqStack S, int *x)
-{
-    if (Empty_SeqStack(S))
-        return 0;
-    else
-        *x = S->data[S->top];
 }
 
 void Destory_SeqStack(PSeqStack S)

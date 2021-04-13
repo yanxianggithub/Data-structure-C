@@ -1,5 +1,5 @@
 //
-// Created by asus on 2021/4/11.
+// Created by asus on 2021/4/12.
 //
 #include <stdio.h>
 #include <stdlib.h>
@@ -68,42 +68,31 @@ void Display_SingleLinkList(SingleLinkList LL)
     }
 }
 
-void DeleteRe(SingleLinkList S)
+void DeleteAB(SingleLinkList S, int A, int B)
 {
-    SingleLinkList p, q, temp;
-    p = S->next;
-    while (p)
+    SingleLinkList p = S, q;
+    while (p->next)
     {
-        q = p->next;
-        while (q)
+
+        if (p->next->data >= A && p->next->data <= B)
         {
-            if (p->data == q->data)
-            {
-                temp=q;
-                q=p;
-                q->next=temp->next;
-                free(temp);
-            }else
-            q = q->next;
-        }
+            q = p->next;
+            p->next = q->next;
+            free(q);
+        }else
         p = p->next;
     }
 }
 
+
 int main()
 {
-    SingleLinkList S;
-    S = Creat_SingleLinkList();
-    Insert_SingleLinkList(S, 1, 1);
-    Insert_SingleLinkList(S, 2, 2);
-    Insert_SingleLinkList(S, 3, 2);
-    Insert_SingleLinkList(S, 4, 3);
-    Insert_SingleLinkList(S, 5, 4);
-    Insert_SingleLinkList(S, 6, 5);
-    Insert_SingleLinkList(S, 7, 5);
-    Display_SingleLinkList(S);
-    printf("\n");
-    DeleteRe(S);
+    SingleLinkList S = Creat_SingleLinkList();
+    for (int i = 1; i < 11; ++i)
+    {
+        Insert_SingleLinkList(S, i, i);
+    }
+    DeleteAB(S, 4, 6);
     Display_SingleLinkList(S);
     return 0;
 }
