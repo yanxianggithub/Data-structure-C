@@ -141,32 +141,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-99-test/4.2.obj: 99-test/4.2.c.obj
+98-experiment/polynomial.obj: 98-experiment/polynomial.c.obj
 
-.PHONY : 99-test/4.2.obj
+.PHONY : 98-experiment/polynomial.obj
 
 # target to build an object file
-99-test/4.2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/4.2.c.obj
-.PHONY : 99-test/4.2.c.obj
+98-experiment/polynomial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/polynomial.c.obj
+.PHONY : 98-experiment/polynomial.c.obj
 
-99-test/4.2.i: 99-test/4.2.c.i
+98-experiment/polynomial.i: 98-experiment/polynomial.c.i
 
-.PHONY : 99-test/4.2.i
+.PHONY : 98-experiment/polynomial.i
 
 # target to preprocess a source file
-99-test/4.2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/4.2.c.i
-.PHONY : 99-test/4.2.c.i
+98-experiment/polynomial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/polynomial.c.i
+.PHONY : 98-experiment/polynomial.c.i
 
-99-test/4.2.s: 99-test/4.2.c.s
+98-experiment/polynomial.s: 98-experiment/polynomial.c.s
 
-.PHONY : 99-test/4.2.s
+.PHONY : 98-experiment/polynomial.s
 
 # target to generate assembly for a file
-99-test/4.2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/4.2.c.s
-.PHONY : 99-test/4.2.c.s
+98-experiment/polynomial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/polynomial.c.s
+.PHONY : 98-experiment/polynomial.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 99-test/4.2.obj
-	@echo ... 99-test/4.2.i
-	@echo ... 99-test/4.2.s
+	@echo ... 98-experiment/polynomial.obj
+	@echo ... 98-experiment/polynomial.i
+	@echo ... 98-experiment/polynomial.s
 .PHONY : help
 
 
