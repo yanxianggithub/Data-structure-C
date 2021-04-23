@@ -141,32 +141,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-98-experiment/polynomial.obj: 98-experiment/polynomial.c.obj
+98-experiment/josephus_Seq.obj: 98-experiment/josephus_Seq.c.obj
 
-.PHONY : 98-experiment/polynomial.obj
+.PHONY : 98-experiment/josephus_Seq.obj
 
 # target to build an object file
-98-experiment/polynomial.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/polynomial.c.obj
-.PHONY : 98-experiment/polynomial.c.obj
+98-experiment/josephus_Seq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/josephus_Seq.c.obj
+.PHONY : 98-experiment/josephus_Seq.c.obj
 
-98-experiment/polynomial.i: 98-experiment/polynomial.c.i
+98-experiment/josephus_Seq.i: 98-experiment/josephus_Seq.c.i
 
-.PHONY : 98-experiment/polynomial.i
+.PHONY : 98-experiment/josephus_Seq.i
 
 # target to preprocess a source file
-98-experiment/polynomial.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/polynomial.c.i
-.PHONY : 98-experiment/polynomial.c.i
+98-experiment/josephus_Seq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/josephus_Seq.c.i
+.PHONY : 98-experiment/josephus_Seq.c.i
 
-98-experiment/polynomial.s: 98-experiment/polynomial.c.s
+98-experiment/josephus_Seq.s: 98-experiment/josephus_Seq.c.s
 
-.PHONY : 98-experiment/polynomial.s
+.PHONY : 98-experiment/josephus_Seq.s
 
 # target to generate assembly for a file
-98-experiment/polynomial.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/polynomial.c.s
-.PHONY : 98-experiment/polynomial.c.s
+98-experiment/josephus_Seq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/josephus_Seq.c.s
+.PHONY : 98-experiment/josephus_Seq.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 98-experiment/polynomial.obj
-	@echo ... 98-experiment/polynomial.i
-	@echo ... 98-experiment/polynomial.s
+	@echo ... 98-experiment/josephus_Seq.obj
+	@echo ... 98-experiment/josephus_Seq.i
+	@echo ... 98-experiment/josephus_Seq.s
 .PHONY : help
 
 

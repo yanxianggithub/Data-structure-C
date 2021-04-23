@@ -196,7 +196,7 @@ void Display_SingleLinkList(SingleLinkList A)
         printf("%.fX^%d", A->next->pi, A->next->pn);
         if (A->next->next)
         {
-            printf(" + ");
+            printf(A->next->next->pi > 0 ? " +" :" ");
         }
         else
         {
@@ -220,7 +220,7 @@ int main()
     Insert_SingleLinkList(B, 1, 2, 1);
     Insert_SingleLinkList(B, 2, 4, 2);
     Insert_SingleLinkList(B, 3, 1, 3);
-    Insert_SingleLinkList(B, 4, 4, 4);
+    Insert_SingleLinkList(B, 4, -4, 4);
     Insert_SingleLinkList(B, 5, 1, 5);
     Insert_SingleLinkList(B, 6, 1, 6);
     Insert_SingleLinkList(B, 7, 1, 7);

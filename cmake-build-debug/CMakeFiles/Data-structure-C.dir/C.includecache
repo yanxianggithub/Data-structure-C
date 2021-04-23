@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/polynomial.c
+C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/josephus_Seq.c
 stdio.h
 -
 stdlib.h
--
-math.h
 -
 
