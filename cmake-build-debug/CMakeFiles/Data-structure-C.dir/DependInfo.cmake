@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/josephus_Seq.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/98-experiment/josephus_Seq.c.obj"
+  "C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/4.3.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/99-test/4.3.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

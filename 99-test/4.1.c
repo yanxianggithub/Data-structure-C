@@ -3,6 +3,20 @@
 //
 #include <stdio.h>
 #include <string.h>
+void StrDelete(char *S, int i, int m);
+int main()
+{
+    int i, m;
+    char x[100];
+    printf("input a string:");
+    scanf("%s", x);
+    printf("input the location:");
+    scanf("%d", &i);
+    printf("input lenth:");
+    scanf("%d", &m);
+    StrDelete(x, i, m);
+    printf("%s", x);
+}
 
 void StrDelete(char *S, int i, int m)
 {
@@ -23,18 +37,4 @@ void StrDelete(char *S, int i, int m)
         }
         S[y]='\0';
     }
-}
-
-int main()
-{
-    int i, m;
-    char x[100];
-    printf("input a string:");
-    scanf("%s", x);
-    printf("input the location:");
-    scanf("%d", &i);
-    printf("input lenth:");
-    scanf("%d", &m);
-    StrDelete(x, i, m);
-    printf("%s", x);
 }
