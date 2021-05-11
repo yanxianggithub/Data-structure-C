@@ -193,7 +193,19 @@ void Display_SingleLinkList(SingleLinkList A)
 {
     while (A->next != NULL)
     {
-        printf("%.fX^%d", A->next->pi, A->next->pn);
+        if(A->next->pi==1&&A->next->pn==1)
+        {
+            printf("X");
+        }else if(A->next->pi==1)
+        {
+            printf("X^%d",A->next->pn);
+        }else if(A->next->pn==1)
+        {
+            printf("%.fX", A->next->pi);
+        }else
+        {
+            printf("%.fX^%d", A->next->pi, A->next->pn);
+        }
         if (A->next->next)
         {
             printf(A->next->next->pi > 0 ? " +" :" ");

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/99-test/4.3.c
+C:/Users/asus/Documents/GitHub/Data-structure-C/00-other/dxs.c
 stdio.h
 -
-string.h
+stdlib.h
 -
 

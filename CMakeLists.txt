@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Data-structure-C 03-stack/Stack_Link.h 03-stack/Stack_Link.c)
 
 # no_finish(2.1.c/)
-add_executable(Data-structure-C 99-test/4.3.c)
+add_executable(Data-structure-C 00-other/dxs.c)
 
 
 

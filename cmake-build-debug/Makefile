@@ -141,32 +141,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-99-test/4.3.obj: 99-test/4.3.c.obj
+00-other/dxs.obj: 00-other/dxs.c.obj
 
-.PHONY : 99-test/4.3.obj
+.PHONY : 00-other/dxs.obj
 
 # target to build an object file
-99-test/4.3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/4.3.c.obj
-.PHONY : 99-test/4.3.c.obj
+00-other/dxs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/00-other/dxs.c.obj
+.PHONY : 00-other/dxs.c.obj
 
-99-test/4.3.i: 99-test/4.3.c.i
+00-other/dxs.i: 00-other/dxs.c.i
 
-.PHONY : 99-test/4.3.i
+.PHONY : 00-other/dxs.i
 
 # target to preprocess a source file
-99-test/4.3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/4.3.c.i
-.PHONY : 99-test/4.3.c.i
+00-other/dxs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/00-other/dxs.c.i
+.PHONY : 00-other/dxs.c.i
 
-99-test/4.3.s: 99-test/4.3.c.s
+00-other/dxs.s: 00-other/dxs.c.s
 
-.PHONY : 99-test/4.3.s
+.PHONY : 00-other/dxs.s
 
 # target to generate assembly for a file
-99-test/4.3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/99-test/4.3.c.s
-.PHONY : 99-test/4.3.c.s
+00-other/dxs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/00-other/dxs.c.s
+.PHONY : 00-other/dxs.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 99-test/4.3.obj
-	@echo ... 99-test/4.3.i
-	@echo ... 99-test/4.3.s
+	@echo ... 00-other/dxs.obj
+	@echo ... 00-other/dxs.i
+	@echo ... 00-other/dxs.s
 .PHONY : help
 
 
