@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Data-structure-C.dir/00-other/dxs.c.obj"
+  "CMakeFiles/Data-structure-C.dir/98-experiment/migong.c.obj"
   "Data-structure-C.exe"
   "Data-structure-C.exe.manifest"
   "Data-structure-C.pdb"

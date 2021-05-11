@@ -141,32 +141,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-00-other/dxs.obj: 00-other/dxs.c.obj
+98-experiment/migong.obj: 98-experiment/migong.c.obj
 
-.PHONY : 00-other/dxs.obj
+.PHONY : 98-experiment/migong.obj
 
 # target to build an object file
-00-other/dxs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/00-other/dxs.c.obj
-.PHONY : 00-other/dxs.c.obj
+98-experiment/migong.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/migong.c.obj
+.PHONY : 98-experiment/migong.c.obj
 
-00-other/dxs.i: 00-other/dxs.c.i
+98-experiment/migong.i: 98-experiment/migong.c.i
 
-.PHONY : 00-other/dxs.i
+.PHONY : 98-experiment/migong.i
 
 # target to preprocess a source file
-00-other/dxs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/00-other/dxs.c.i
-.PHONY : 00-other/dxs.c.i
+98-experiment/migong.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/migong.c.i
+.PHONY : 98-experiment/migong.c.i
 
-00-other/dxs.s: 00-other/dxs.c.s
+98-experiment/migong.s: 98-experiment/migong.c.s
 
-.PHONY : 00-other/dxs.s
+.PHONY : 98-experiment/migong.s
 
 # target to generate assembly for a file
-00-other/dxs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/00-other/dxs.c.s
-.PHONY : 00-other/dxs.c.s
+98-experiment/migong.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/migong.c.s
+.PHONY : 98-experiment/migong.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 00-other/dxs.obj
-	@echo ... 00-other/dxs.i
-	@echo ... 00-other/dxs.s
+	@echo ... 98-experiment/migong.obj
+	@echo ... 98-experiment/migong.i
+	@echo ... 98-experiment/migong.s
 .PHONY : help
 
 
