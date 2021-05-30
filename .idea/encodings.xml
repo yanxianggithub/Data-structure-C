@@ -3,8 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/00-other/Cpp3.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/00-other/dxs.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/98-experiment/Maze.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/98-experiment/josephus_Seq.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/98-experiment/migong.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/98-experiment/polynomial.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Table.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Table_s.txt" charset="GBK" />
   </component>
 </project>
