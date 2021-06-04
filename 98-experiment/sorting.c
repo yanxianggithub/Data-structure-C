@@ -6,35 +6,36 @@
 int main()
 {
     struct Student boy[SIZE], girl[SIZE];
-    ReadFile();
+    char *FileName="Table.txt";
+    ReadFile(FileName);
     Divide(boy, girl);
     BubbleSort(boy);
     HeapSort(girl);
-    //WriteFile();
 
+
+    return 0;
 }
 
-void WriteFile()
+void WriteFile(char *FileName,struct Student *s)
 {
     FILE *fp = NULL;
-    if ((fp = fopen("Table_s.txt", "w")) == NULL)
+    if ((fp = fopen(FileName, "w")) == NULL)
     {
         printf("cannot open this file\n");
         exit(0);
     }
-    printf("No Name Eng point Math point Phy point\n");
-    for (int i = 1; i < SIZE; i++)
+    for (int i = 1; i < s[0].number; i++)
     {
         //scanf("%d %s %s %s", &stu[i].number, stu[i].name, stu[i].sex, stu[i].class);
-        fprintf(fp, "%d %s %s %s\n", stu[i].number, stu[i].name, stu[i].sex, stu[i].class);
+        fprintf(fp, "%d %s %s %s\n", s[i].number, s[i].name, s[i].sex, s[i].class);
     }
     fclose(fp);
 }
 
-void ReadFile()
+void ReadFile(char *FileName)
 {
     FILE *fp = NULL;
-    fp = fopen("Table.txt", "r");
+    fp = fopen(FileName, "r");
     if (!fp)
     {
         printf("error!\n");
@@ -78,6 +79,8 @@ void BubbleSort(struct Student *s)
             }
         }
     }
+    s[0].number=size;
+    WriteFile("BubbleSort.txt",s);
 //    for (int j = 1; j < size; j++)
 //    {
 //        printf("%d\t%s\t%s\t%s\n", s[j].number, s[j].name, s[j].sex, s[j].class);
@@ -113,6 +116,8 @@ void HeapSort(struct Student *s)
         s[i]=s[0];
         HeapAdjust(s,1 , i - 1);
     }
+    s[0].number=size + 1;
+    WriteFile("HeapSort.txt",s);
 //    for (int j = 1; j <= size; j++)
 //    {
 //        printf("%d\t%s\t%s\t%s\n", s[j].number, s[j].name, s[j].sex, s[j].class);

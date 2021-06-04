@@ -14,8 +14,8 @@ struct Student{
     char sex[4];
     char class[12];
 }stu[SIZE];
-void ReadFile();
-void WriteFile();
+void ReadFile(char *FileName);
+void WriteFile(char *FileName,struct Student *s);
 void HeapAdjust(struct Student *s,int n,int m);
 void HeapSort(struct Student *s);
 void BubbleSort(struct Student *s);

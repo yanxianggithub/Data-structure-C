@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/migong.c
+C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/sorting.c
+sorting.h
+C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/sorting.h
+
+C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/sorting.h
 stdio.h
 -
 stdlib.h
