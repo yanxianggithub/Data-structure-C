@@ -6,7 +6,7 @@
 int main()
 {
     struct Student boy[SIZE], girl[SIZE];
-    char *FileName="Table.txt";
+    char *FileName = "Table.txt";
     ReadFile(FileName);
     Divide(boy, girl);
     BubbleSort(boy);
@@ -16,7 +16,7 @@ int main()
     return 0;
 }
 
-void WriteFile(char *FileName,struct Student *s)
+void WriteFile(char *FileName, struct Student *s)
 {
     FILE *fp = NULL;
     if ((fp = fopen(FileName, "w")) == NULL)
@@ -79,8 +79,8 @@ void BubbleSort(struct Student *s)
             }
         }
     }
-    s[0].number=size;
-    WriteFile("BubbleSort.txt",s);
+    s[0].number = size;
+    WriteFile("BubbleSort.txt", s);
 //    for (int j = 1; j < size; j++)
 //    {
 //        printf("%d\t%s\t%s\t%s\n", s[j].number, s[j].name, s[j].sex, s[j].class);
@@ -89,7 +89,7 @@ void BubbleSort(struct Student *s)
 
 void HeapAdjust(struct Student *s, int n, int m)
 {
-    struct Student rc=s[n];
+    struct Student rc = s[n];
     for (int j = 2 * n; j <= m; j = j * 2)
     {
         if (j < m && s[j].number < s[j + 1].number)
@@ -104,22 +104,42 @@ void HeapAdjust(struct Student *s, int n, int m)
 void HeapSort(struct Student *s)
 {
     int i;
-    int size = s[0].number-1;
+    int size = s[0].number - 1;
     for (i = size / 2; i > 0; i--)
     {
         HeapAdjust(s, i, size);
     }
     for (i = size; i > 1; i--)
     {
-        s[0]=s[1];
-        s[1]=s[i];
-        s[i]=s[0];
-        HeapAdjust(s,1 , i - 1);
+        s[0] = s[1];
+        s[1] = s[i];
+        s[i] = s[0];
+        HeapAdjust(s, 1, i - 1);
     }
-    s[0].number=size + 1;
-    WriteFile("HeapSort.txt",s);
+    s[0].number = size + 1;
+    WriteFile("HeapSort.txt", s);
 //    for (int j = 1; j <= size; j++)
 //    {
 //        printf("%d\t%s\t%s\t%s\n", s[j].number, s[j].name, s[j].sex, s[j].class);
 //    }
+}
+
+void Merge(struct Student *s, struct Student *p, int u, int v, int t)
+{
+    int i, j, k;
+    for (i = u, j = v + 1, k = u; i <= v && j <= t; ++k)
+    {
+        if (s[i].number <= s[j].number)
+        {
+            p[k] = s[i];
+            i++;
+        }
+        else
+        {
+            p[k] = s[j];
+            j++;
+        }
+    }
+    while (i <= v) { p[k++] = s[i++]; }
+    while (j <= t) { p[k++] = s[j++]; }
 }
