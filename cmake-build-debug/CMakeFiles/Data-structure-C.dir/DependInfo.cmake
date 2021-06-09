@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/sorting.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj"
+  "C:/Users/asus/Documents/GitHub/Data-structure-C/98-experiment/sort.c" "C:/Users/asus/Documents/GitHub/Data-structure-C/cmake-build-debug/CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
