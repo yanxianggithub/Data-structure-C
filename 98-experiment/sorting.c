@@ -1,22 +1,21 @@
-//
-// Created by asus on 2021/5/28.
-//
 #include "sorting.h"
 
 int main()
 {
-    struct Student boy[SIZE], girl[SIZE];
-    char *FileName = "Table.txt";
-    ReadFile(FileName);
-    Divide(boy, girl);
-    BubbleSort(boy);
-    HeapSort(girl);
-
-
+    char *FileName1 = "Fruit.txt";
+    char *FileName2 = "Cake.txt";
+//    WriteFile(FileName1,Fruit);
+//    WriteFile(FileName2,Cake);
+    ReadFile(FileName1,Fruit);
+    BubbleSort(Fruit);
+    ReadFile(FileName2,Cake);
+    HeapSort(Cake);
+    struct Goods goods[2*size];
+    MergeSort(goods);
     return 0;
 }
 
-void WriteFile(char *FileName, struct Student *s)
+void WriteFile(char *FileName, struct Goods *s)
 {
     FILE *fp = NULL;
     if ((fp = fopen(FileName, "w")) == NULL)
@@ -24,15 +23,15 @@ void WriteFile(char *FileName, struct Student *s)
         printf("cannot open this file\n");
         exit(0);
     }
-    for (int i = 1; i < s[0].number; i++)
+    for (int i = 1; i <= s[0].price; i++)
     {
-        //scanf("%d %s %s %s", &stu[i].number, stu[i].name, stu[i].sex, stu[i].class);
-        fprintf(fp, "%d %s %s %s\n", s[i].number, s[i].name, s[i].sex, s[i].class);
+        //scanf("%s %d",s->name,&s->price);
+        fprintf(fp, "%s %d\n", s[i].name,s[i].price);
     }
     fclose(fp);
 }
 
-void ReadFile(char *FileName)
+void ReadFile(char *FileName,struct Goods *s)
 {
     FILE *fp = NULL;
     fp = fopen(FileName, "r");
@@ -41,37 +40,20 @@ void ReadFile(char *FileName)
         printf("error!\n");
         exit(-1);
     }
-    for (int i = 1; i < SIZE; i++)
+    for (int i = 1; i <= size; i++)
     {
-        fscanf(fp, "%d %s %s %s\n", &stu[i].number, stu[i].name, stu[i].sex, stu[i].class);
+        fscanf(fp, "%s %d\n", s[i].name,&s[i].price);
     }
     fclose(fp);
-//    for (int j = 1; j < SIZE; j++)
-//    {
-//        printf("%d\t%s\t%s\t%s\n", stu[j].number, stu[j].name, stu[j].sex, stu[j].class);
-//    }
 }
 
-void Divide(struct Student *boy, struct Student *girl)
+void BubbleSort(struct Goods *s)
 {
-    boy[0].number = 1, girl[0].number = 1;
-    char is_boy[4] = {'\304', '\320', '\0', '\0'};
-    for (int i = 1; i < SIZE; ++i)
+    for (int i = 1; i <= size; ++i)
     {
-        if (strcmp(stu[i].sex, is_boy) == 0)
-            boy[boy[0].number++] = stu[i];
-        else girl[girl[0].number++] = stu[i];
-    }
-}
-
-void BubbleSort(struct Student *s)
-{
-    int size = s[0].number;
-    for (int i = 1; i < size; ++i)
-    {
-        for (int j = 2; j <= size - i; ++j)
+        for (int j = 2; j <= size; ++j)
         {
-            if (s[j].number < s[j - 1].number)
+            if (s[j].price > s[j - 1].price)
             {
                 s[0] = s[j];
                 s[j] = s[j - 1];
@@ -79,32 +61,27 @@ void BubbleSort(struct Student *s)
             }
         }
     }
-    s[0].number = size;
-    WriteFile("BubbleSort.txt", s);
-//    for (int j = 1; j < size; j++)
-//    {
-//        printf("%d\t%s\t%s\t%s\n", s[j].number, s[j].name, s[j].sex, s[j].class);
-//    }
+    s[0].price = size;
+    WriteFile("Fruits.txt", s);
 }
 
-void HeapAdjust(struct Student *s, int n, int m)
+void HeapAdjust(struct Goods *s, int n, int m)
 {
-    struct Student rc = s[n];
+    struct Goods rc = s[n];
     for (int j = 2 * n; j <= m; j = j * 2)
     {
-        if (j < m && s[j].number < s[j + 1].number)
+        if (j < m && s[j].price > s[j + 1].price)
             j++;
-        if (rc.number > s[j].number)break;
+        if (rc.price < s[j].price)break;
         s[n] = s[j];
         n = j;
     }
     s[n] = rc;
 }
 
-void HeapSort(struct Student *s)
+void HeapSort(struct Goods *s)
 {
     int i;
-    int size = s[0].number - 1;
     for (i = size / 2; i > 0; i--)
     {
         HeapAdjust(s, i, size);
@@ -116,30 +93,60 @@ void HeapSort(struct Student *s)
         s[i] = s[0];
         HeapAdjust(s, 1, i - 1);
     }
-    s[0].number = size + 1;
-    WriteFile("HeapSort.txt", s);
-//    for (int j = 1; j <= size; j++)
-//    {
-//        printf("%d\t%s\t%s\t%s\n", s[j].number, s[j].name, s[j].sex, s[j].class);
-//    }
+    s[0].price = size;
+    WriteFile("Cakes.txt", s);
 }
 
-void Merge(struct Student *s, struct Student *p, int u, int v, int t)
+void Merge(struct Goods r[], struct Goods rf[], int u, int v, int t)
 {
     int i, j, k;
     for (i = u, j = v + 1, k = u; i <= v && j <= t; ++k)
     {
-        if (s[i].number <= s[j].number)
+        if (r[i].price >= r[j].price)
         {
-            p[k] = s[i];
+            rf[k] = r[i];
             i++;
-        }
-        else
+        } else
         {
-            p[k] = s[j];
+            rf[k] = r[j];
             j++;
         }
     }
-    while (i <= v) { p[k++] = s[i++]; }
-    while (j <= t) { p[k++] = s[j++]; }
+    while (i <= v) { rf[k++] = r[i++]; }
+    while (j <= t) { rf[k++] = r[j++]; }
+}
+
+void MSort(struct Goods p[], struct Goods p1[], int n, int t)
+{
+    int m;
+    struct Goods p2[2*size + 1];
+    if (n == t)p1[n] = p[n];
+    else
+    {
+        m = (n + t) / 2;
+        MSort(p, p2, n, m);
+        MSort(p, p2, m + 1, t);
+        Merge(p2, p1, n, m, t);
+    }
+}
+
+void MergeSort(struct Goods *s)
+{
+    int buff = size;            //定义缓冲区大小
+    struct Goods s1[buff + 1], s2[buff + 1];
+        char FileName1[] = "Fruits.txt";
+        char FileName2[] = "Cakes.txt";
+        FILE *fp1 = NULL, *fp2 = NULL;
+        fp1 = fopen(FileName1, "r");
+        fp2 = fopen(FileName2, "r");
+        for (int i = 1; i <= buff; i++)
+        {
+            fscanf(fp1, "%s %d\n", s1[i].name,&s1[i].price);
+            fscanf(fp2, "%s %d\n", s2[i].name,&s2[i].price);
+        }
+        fclose(fp1);
+        fclose(fp2);
+        MSort(s, s, 1, buff);
+        s[0].price = 2 * buff;
+       WriteFile("goods.txt", s);
 }

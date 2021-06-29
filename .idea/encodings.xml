@@ -7,9 +7,18 @@
     <file url="file://$PROJECT_DIR$/98-experiment/josephus_Seq.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/98-experiment/migong.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/98-experiment/polynomial.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/98-experiment/sort.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/98-experiment/sorting.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/cmake-build-debug/BubbleSort.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Cake.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Cakes.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Fruit.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Fruits.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/cmake-build-debug/HeapSort.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/cmake-build-debug/Table.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/cmake-build-debug/Table_s.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/goods.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/student.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/students.txt" charset="GBK" />
   </component>
 </project>

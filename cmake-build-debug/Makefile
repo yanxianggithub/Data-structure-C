@@ -141,32 +141,32 @@ Data-structure-C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/build
 .PHONY : Data-structure-C/fast
 
-98-experiment/sort.obj: 98-experiment/sort.c.obj
+98-experiment/sorting.obj: 98-experiment/sorting.c.obj
 
-.PHONY : 98-experiment/sort.obj
+.PHONY : 98-experiment/sorting.obj
 
 # target to build an object file
-98-experiment/sort.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj
-.PHONY : 98-experiment/sort.c.obj
+98-experiment/sorting.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj
+.PHONY : 98-experiment/sorting.c.obj
 
-98-experiment/sort.i: 98-experiment/sort.c.i
+98-experiment/sorting.i: 98-experiment/sorting.c.i
 
-.PHONY : 98-experiment/sort.i
+.PHONY : 98-experiment/sorting.i
 
 # target to preprocess a source file
-98-experiment/sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.i
-.PHONY : 98-experiment/sort.c.i
+98-experiment/sorting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.i
+.PHONY : 98-experiment/sorting.c.i
 
-98-experiment/sort.s: 98-experiment/sort.c.s
+98-experiment/sorting.s: 98-experiment/sorting.c.s
 
-.PHONY : 98-experiment/sort.s
+.PHONY : 98-experiment/sorting.s
 
 # target to generate assembly for a file
-98-experiment/sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.s
-.PHONY : 98-experiment/sort.c.s
+98-experiment/sorting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data-structure-C.dir\build.make CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.s
+.PHONY : 98-experiment/sorting.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data-structure-C
-	@echo ... 98-experiment/sort.obj
-	@echo ... 98-experiment/sort.i
-	@echo ... 98-experiment/sort.s
+	@echo ... 98-experiment/sorting.obj
+	@echo ... 98-experiment/sorting.i
+	@echo ... 98-experiment/sorting.s
 .PHONY : help
 
 

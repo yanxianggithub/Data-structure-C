@@ -75,27 +75,27 @@ include CMakeFiles/Data-structure-C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Data-structure-C.dir/flags.make
 
-CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
-CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj: ../98-experiment/sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\98-experiment\sort.c.obj -c C:\Users\asus\Documents\GitHub\Data-structure-C\98-experiment\sort.c
+CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj: CMakeFiles/Data-structure-C.dir/flags.make
+CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj: ../98-experiment/sorting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Documents\GitHub\Data-structure-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Data-structure-C.dir\98-experiment\sorting.c.obj -c C:\Users\asus\Documents\GitHub\Data-structure-C\98-experiment\sorting.c
 
-CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\98-experiment\sort.c > CMakeFiles\Data-structure-C.dir\98-experiment\sort.c.i
+CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Documents\GitHub\Data-structure-C\98-experiment\sorting.c > CMakeFiles\Data-structure-C.dir\98-experiment\sorting.c.i
 
-CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\98-experiment\sort.c -o CMakeFiles\Data-structure-C.dir\98-experiment\sort.c.s
+CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Documents\GitHub\Data-structure-C\98-experiment\sorting.c -o CMakeFiles\Data-structure-C.dir\98-experiment\sorting.c.s
 
 # Object files for target Data-structure-C
 Data__structure__C_OBJECTS = \
-"CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj"
+"CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj"
 
 # External object files for target Data-structure-C
 Data__structure__C_EXTERNAL_OBJECTS =
 
-Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/98-experiment/sort.c.obj
+Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/98-experiment/sorting.c.obj
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/build.make
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/linklibs.rsp
 Data-structure-C.exe: CMakeFiles/Data-structure-C.dir/objects1.rsp

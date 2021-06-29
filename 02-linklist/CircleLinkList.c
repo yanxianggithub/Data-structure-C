@@ -90,7 +90,7 @@ int Insert_CircleLinkList(CircleLinkList H, int i, int x)
         S->prior = p;
         p->next = S;
         S->next = H->next;
-        H->prior = S;
+        H->prior = S2;
     }
     else
     {

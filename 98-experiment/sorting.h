@@ -1,25 +1,22 @@
 //
-// Created by asus on 2021/5/28.
+// Created by asus on 2021/6/6.
 //
 #ifndef DATA_STRUCTURE_C_SORTING_H
 #define DATA_STRUCTURE_C_SORTING_H
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#define SIZE 79
-struct Student{
-    int number;
-    char name[8];
-    char sex[4];
-    char class[12];
-}stu[SIZE];
-void ReadFile(char *FileName);
-void WriteFile(char *FileName,struct Student *s);
-void HeapAdjust(struct Student *s,int n,int m);
-void HeapSort(struct Student *s);
-void BubbleSort(struct Student *s);
-void Divide(struct Student *boy,struct Student *girl);
-void Merge(struct Student *s,struct Student *p,int u,int v,int t);
-void MSort(struct Student *s,struct Student *p,int n,int t);
-void MergeSort(struct Student *s);
+#define size 10
+struct Goods{
+    char name[10];
+    int price;
+}Fruit[size],Cake[size];
+void ReadFile(char *FileName,struct Goods *s);
+void WriteFile(char *FileName,struct Goods *s);
+void HeapAdjust(struct Goods *s, int n, int m);
+void HeapSort(struct Goods *s);
+void Divide(struct Goods *s1,struct Goods *s2);
+void BubbleSort(struct Goods *s);
+void Merge(struct Goods r[], struct Goods rf[], int u, int v, int t);
+void MSort(struct Goods p[],struct Goods p1[],int n,int t);
+void MergeSort(struct Goods *s);
 #endif //DATA_STRUCTURE_C_SORTING_H

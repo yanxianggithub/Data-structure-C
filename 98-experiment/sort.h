@@ -6,19 +6,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define SIZE 79
+#include <time.h>
+#define SIZE 78
 struct Student{
-    int number;
-    char name[8];
-    char sex[4];
-    char class[12];
+    int Number;
+    char Name[8];
+    char Sex[4];
+    int Class;
+    int Grade;
 }stu[SIZE];
 void ReadFile(char *FileName);
 void WriteFile(char *FileName,struct Student *s);
 void HeapAdjust(struct Student *s,int n,int m);
 void HeapSort(struct Student *s);
+void Divide(struct Student *s1,struct Student *s2);
 void BubbleSort(struct Student *s);
-void Merge(struct Student *s,struct Student *p,int u,int v,int t);
-void MSort(struct Student *s,struct Student *p,int n,int t);
+void Merge(struct Student r[], struct Student rf[], int u, int v, int t);
+void MSort(struct Student p[],struct Student p1[],int n,int t);
 void MergeSort(struct Student *s);
 #endif //DATA_STRUCTURE_C_SORTING_H
