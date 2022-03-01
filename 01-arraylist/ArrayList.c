@@ -1,7 +1,5 @@
 #include "ArrayList.h"
 
-#include "ArrayList.h"
-
 int main()
 {
     PSeqList PL;
