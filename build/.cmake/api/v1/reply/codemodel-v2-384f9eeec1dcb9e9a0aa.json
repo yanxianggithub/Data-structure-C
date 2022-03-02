@@ -290,9 +290,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-7484b422f7884ab7a953.json",
-					"name" : "main",
+					"id" : "exp1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp1-Debug-278056f43e84aeffab5d.json",
+					"name" : "exp1",
 					"projectIndex" : 0
 				}
 			]

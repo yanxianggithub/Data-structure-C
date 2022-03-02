@@ -1,6 +1,3 @@
-//
-// Created by asus on 2021/4/12.
-//
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 100

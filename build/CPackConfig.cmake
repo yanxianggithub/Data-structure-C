@@ -25,7 +25,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "C:/Program Files/CMake/share/cmake-3
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "main built using CMake")
 set(CPACK_GENERATOR "NSIS")
 set(CPACK_INSTALL_CMAKE_PROJECTS "C:/Users/Administrator/Documents/Data-structure-C/build;main;ALL;/")
-set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/>cmake:q")
+set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/ArrayList")
 set(CPACK_MODULE_PATH "")
 set(CPACK_NSIS_DISPLAY_NAME "main 0.1.0")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")

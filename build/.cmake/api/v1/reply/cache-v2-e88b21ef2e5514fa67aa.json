@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : ">cmake:q_BINARY_DIR",
+			"name" : "ArrayList_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -14,7 +14,7 @@
 			"value" : "C:/Users/Administrator/Documents/Data-structure-C/build"
 		},
 		{
-			"name" : ">cmake:q_IS_TOP_LEVEL",
+			"name" : "ArrayList_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : ">cmake:q_SOURCE_DIR",
+			"name" : "ArrayList_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -727,7 +727,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/>cmake:q"
+			"value" : "C:/Program Files (x86)/ArrayList"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1608,42 +1608,6 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : ""
-		},
-		{
-			"name" : "CmakeList_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Administrator/Documents/Data-structure-C/build"
-		},
-		{
-			"name" : "CmakeList_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "CmakeList_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Administrator/Documents/Data-structure-C"
 		},
 		{
 			"name" : "DART_TESTING_TIMEOUT",

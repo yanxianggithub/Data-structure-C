@@ -1,6 +1,3 @@
-//
-// Created by asus on 2021/4/25.
-//
 #include <stdio.h>
 #include <string.h>
 
