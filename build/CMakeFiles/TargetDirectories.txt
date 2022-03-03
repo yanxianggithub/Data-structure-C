@@ -26,7 +26,7 @@ C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/ContinuousTes
 C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/ContinuousCoverage.dir
 C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/ContinuousSubmit.dir
-C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/exp1.dir
+C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/stack.dir
 C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/package.dir
 C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/package_source.dir
 C:/Users/Administrator/Documents/Data-structure-C/build/CMakeFiles/test.dir

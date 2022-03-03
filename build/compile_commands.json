@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/Administrator/Documents/Data-structure-C/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\X8EAA8~1.EXE   -g -o CMakeFiles\\exp1.dir\\90-structure\\exp1.c.obj -c C:\\Users\\Administrator\\Documents\\Data-structure-C\\90-structure\\exp1.c",
-  "file": "C:/Users/Administrator/Documents/Data-structure-C/90-structure/exp1.c"
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\X8EAA8~1.EXE   -g -o CMakeFiles\\stack.dir\\03-stack\\Stack_Array.c.obj -c C:\\Users\\Administrator\\Documents\\Data-structure-C\\03-stack\\Stack_Array.c",
+  "file": "C:/Users/Administrator/Documents/Data-structure-C/03-stack/Stack_Array.c"
 }
 ]
