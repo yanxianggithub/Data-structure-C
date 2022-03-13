@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Administrator/Documents/Data-structure-C
-BuildDirectory: C:/Users/Administrator/Documents/Data-structure-C/build
+SourceDirectory: C:/Users/asus/Documents/GitHub/Data-structure-C
+BuildDirectory: C:/Users/asus/Documents/GitHub/Data-structure-C/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-MSAIB3Q
+Site: LAPTOP-VVMVOHIT
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -21,14 +21,13 @@ LabelsForSubprojects:
 
 # Submission information
 SubmitURL: http://
-SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Administrator/Documents/Data-structure-C"
-MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/bin/cmake.exe" "C:/Users/asus/Documents/GitHub/Data-structure-C"
+MakeCommand: C:/Program\ Files/JetBrains/CLion\ 2020.3.2/bin/cmake/win/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,7 +62,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files/mingw64/bin/x86_64-w64-mingw32-g++.exe
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
 CompilerVersion: 8.1.0
 
 # Dynamic analysis (MemCheck)
@@ -81,7 +80,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/Program Files/mingw64/bin/gcov.exe
+CoverageCommand: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

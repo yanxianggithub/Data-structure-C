@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/Users/Administrator/Documents/Data-structure-C/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\X8EAA8~1.EXE   -g -o CMakeFiles\\exp1.dir\\90-structure\\exp1.c.obj -c C:\\Users\\Administrator\\Documents\\Data-structure-C\\90-structure\\exp1.c",
-  "file": "C:/Users/Administrator/Documents/Data-structure-C/90-structure/exp1.c"
+  "directory": "C:/Users/asus/Documents/GitHub/Data-structure-C/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE   -g -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\asus\\Documents\\GitHub\\Data-structure-C\\main.cpp",
+  "file": "C:/Users/asus/Documents/GitHub/Data-structure-C/main.cpp"
 }
 ]
