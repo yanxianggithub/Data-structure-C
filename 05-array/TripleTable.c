@@ -20,28 +20,17 @@ int compare(int a1, int b1, int a2, int b2);
 
 int main()
 {
-    tripletable A,B;
-    A.m = 4;
-    A.n = 5;
-    A.t = 5;
-    A.data[1].i = 1;
-    A.data[1].j = 2;
-    A.data[1].v = 7;
-    A.data[2].i = 1;
-    A.data[2].j = 4;
-    A.data[2].v = 4;
-    A.data[3].i = 2;
-    A.data[3].j = 1;
-    A.data[3].v = 3;
-    A.data[4].i = 3;
-    A.data[4].j = 5;
-    A.data[4].v = 1;
-    A.data[5].i = 4;
-    A.data[5].j = 2;
-    A.data[5].v = 6;
+    tripletable A;
+    printf("input the raw & col & count m/n/t:");
+    scanf("%d %d %d", &A.m, &A.n, &A.t);
+    printf("input the raw & col & value i/j/v:");
+    if (A.m--)
+    {
+        scanf("%d %d %d", &A.data->i, &A.data->j, &A.data->v);
+    }
+    
     Print(A);
     printf("\n");
-
 }
 /*Status Value(tripletable M, ElemType &e, int i, int j)
 {
