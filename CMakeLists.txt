@@ -4,7 +4,7 @@ project(main VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(main 06-tree/HuffmanTree.cpp)
+add_executable(main 00-other/rsa.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
