@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAXSIZE 100
+#define MAXSIZE 20
 #define DataType int
 
 typedef struct node
@@ -8,16 +8,14 @@ typedef struct node
     DataType data[MAXSIZE];
     int length;
 } SeqList, *PSeqList;
-
 PSeqList Init_SeqList(void)
 {
     PSeqList PL;
     PL = (PSeqList)malloc(sizeof(SeqList));
-    if (PL)
+    if (PL) /*若SL=0表示分配失败*/
         PL->length = 0;
     return (PL);
 }
-
 void Destroy_SeqList(PSeqList *PL)
 {
     if (*PL)
@@ -33,7 +31,7 @@ int Insert_SeqList(PSeqList PL, int i, DataType x)
     if (!PL)
     {
         printf("表不存在");
-        return (-2);
+        return (-1);
     }
     if (PL->length >= MAXSIZE)
     {
@@ -52,28 +50,27 @@ int Insert_SeqList(PSeqList PL, int i, DataType x)
     return (1);
 }
 
-void Delete_X(PSeqList PL, int x)
-{
-    if (!PL)
-    {
-        printf("表不存在");
-        return (-1);
-    }
-    for (int i = 0; i < PL->length; i++)
-    {
-        if (PL->data[i] == x)
-        {
-            for (int j = i; j < PL->length; j++)
-                PL->data[j] = PL->data[j + 1];
-            PL->length--;
-        }
-    }
-}
-
 void Display_SeqList(PSeqList PL)
 {
     for (int i = 0; i < PL->length; i++)
         printf("%d  ", PL->data[i]);
+}
+void Delete_Re(PSeqList PL)
+{
+    if (PL->length == 0)
+    {
+        printf("error");
+        return;
+    }
+    for (int i = 0; i < PL->length;i++)
+        for (int j = i + 1; j < PL->length; j++)
+        {
+            if(PL->data[i] == PL->data[j])
+            {
+                PL->data[j] = 
+                PL->length--;
+            }
+        }
 }
 
 int main()
@@ -84,11 +81,9 @@ int main()
     {
         Insert_SeqList(PL, i, i);
     }
-    Insert_SeqList(PL, 11, 5);
-    Insert_SeqList(PL, 12, 6);
     Display_SeqList(PL);
-    Delete_X(PL, 5);
     printf("\n");
+    printf("%d\n", DeleteMin(PL));
     Display_SeqList(PL);
     return 0;
 }
